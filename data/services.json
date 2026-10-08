@@ -1,0 +1,117 @@
+[
+  {
+    "id": "ac-service",
+    "category": "Pendingin Ruangan",
+    "name": "Service & Perawatan AC Lengkap",
+    "tag": "Best Seller",
+    "price": "Mulai Rp 75.000",
+    "priceNote": "Cuci rutin Rp 75.000 | Overhaul turun unit Rp 350.000",
+    "description": "Solusi lengkap AC kurang dingin, bocor air, bau apek, berisik, atau mati total. Melayani AC Split, Inverter, Cassette, & Standing.",
+    "address": "Melayani panggilan Indramayu, Cirebon, & Majalengka",
+    "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200&auto=format&fit=crop",
+    "features": [
+      "Cuci AC Berkala Rp 75.000",
+      "Cuci Overhaul Turun Unit Rp 350.000",
+      "Pasang AC Rp 350.000 / Bongkar AC Rp 250.000",
+      "Perbaikan Kebocoran & Isi Freon Rp 750.000",
+      "Perbaikan Module PCB AC Rp 350.000",
+      "Ganti Modul Universal Rp 450.000"
+    ],
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "kulkas-service",
+    "category": "Pendingin Makanan",
+    "name": "Service Kulkas 1 Pintu, 2 Pintu & Side by Side",
+    "tag": "Spesialis Kompresor",
+    "price": "Mulai Rp 150.000",
+    "priceNote": "Pengecekan teknis akurat di tempat",
+    "description": "Perbaikan kulkas tidak dingin, freezer membeku sebagian, bau terbakar, kompresor macet, dan pengisian freon R134a / R600a.",
+    "address": "Panggilan langsung ke rumah / ruko pelanggan",
+    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?q=80&w=1200&auto=format&fit=crop",
+    "features": [
+      "Pengecekan Kebocoran Jalur Freon",
+      "Penggantian Relay, Overload & Defrost Timer",
+      "Service Kompresor Kulkas & Inverter",
+      "Pergantian Karet Pintu & Thermostat Suhu",
+      "Pengerjaan Langsung di Lokasi Anda"
+    ],
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "mesin-cuci-service",
+    "category": "Mesin Elektronik",
+    "name": "Service Mesin Cuci Front & Top Loading",
+    "tag": "Semua Merk",
+    "price": "Mulai Rp 150.000",
+    "priceNote": "Tergantung komponen & model unit",
+    "description": "Menangani mesin cuci mati total, error digital, tidak mau berputar/memeras, air tidak mengalir masuk, atau pembuangan bocor.",
+    "address": "Area Indramayu Kota, Jatibarang, Cirebon & Majalengka",
+    "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=1200&auto=format&fit=crop",
+    "features": [
+      "Mesin Cuci Front Loading & Top Loading Otomatis",
+      "Mesin Cuci 2 Tabung (Manual)",
+      "Ganti Gearbox, Dinamo, Kapasitor & Water Level Sensor",
+      "Perbaikan Modul Komputer / PCB Kontrol",
+      "Pembersihan Kerak Tabung Dalam (Deep Cleaning)"
+    ],
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "showcase-service",
+    "category": "Pendingin Komersil",
+    "name": "Service Showcase Pendingin Minuman",
+    "tag": "Solusi Usaha",
+    "price": "Mulai Rp 200.000",
+    "priceNote": "Cepat agar bisnis minuman tetap jalan",
+    "description": "Perbaikan showcase display toko/minimarket yang tidak dingin, kipas fan mati, kaca berembun parah, atau kompresor overheat.",
+    "address": "Khusus toko, warung, cafe & minimarket",
+    "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?q=80&w=1200&auto=format&fit=crop",
+    "features": [
+      "Service Cepat untuk Kebutuhan Toko & Cafe",
+      "Flushing Pipa Kondensor & Ganti Filter Drier",
+      "Penggantian Kipas Blower & Kipas Kondensor",
+      "Isi Freon & Setting Thermostat Digital",
+      "Prioritas Panggilan Darurat Usaha"
+    ],
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "freezer-service",
+    "category": "Pendingin Beku",
+    "name": "Service Freezer Box / Deep Freezer",
+    "tag": "Heavy Duty",
+    "price": "Mulai Rp 200.000",
+    "priceNote": "Penanganan cepat cegah stok daging/es rusak",
+    "description": "Perbaikan chest freezer dan standing freezer untuk daging, es krim, ASI, atau seafood. Mengatasi kompresor macet & kebocoran evaporator.",
+    "address": "Indramayu, Cirebon, Majalengka (Panggilan Hari Ini)",
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=1200&auto=format&fit=crop",
+    "features": [
+      "Perbaikan Pembekuan yang Tidak Maksimal",
+      "Pengelasan Kebocoran Evaporator Alumunium / Tembaga",
+      "Ganti Kompresor Baru Bergaransi",
+      "Vakum Ulang & Pengisian Freon Standar Pabrik",
+      "Tes Uji Tekanan & Arus Ampere Listrik"
+    ],
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "dispenser-service",
+    "category": "Elektronik Rumah Tangga",
+    "name": "Service Dispenser Galon Bawah & Atas",
+    "tag": "Higienis",
+    "price": "Mulai Rp 100.000",
+    "priceNote": "Pembersihan pipa & perbaikan elektrik",
+    "description": "Perbaikan air panas tidak mendidih, air dingin tidak dingin, kran air menetes/bocor, suara dengung bising, atau pompa galon bawah mati.",
+    "address": "Panggilan ke rumah tangga & kantor",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=1200&auto=format&fit=crop",
+    "features": [
+      "Dispenser Galon Atas & Galon Bawah Modern",
+      "Penggantian Elemen Pemanas / Heater Tabung",
+      "Service Pendingin Kompresor & Modul Peltier",
+      "Pergantian Pompa Air Otomatis & Selang Silikon Food-Grade",
+      "Sterilisasi Pipa & Tangki Higienis"
+    ],
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  }
+]

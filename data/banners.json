@@ -1,0 +1,32 @@
+[
+  {
+    "id": "banner-1",
+    "title": "Promo Cuci AC Hemat Hanya Rp 75.000",
+    "subtitle": "Pembersihan evaporator, blower & outdoor unit bersih tuntas. Dingin sejuk kembali tanpa bau apek!",
+    "serviceName": "Service & Cuci AC Berkala Serviceku",
+    "tag": "TERLARIS • BERGARANSI",
+    "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1600&auto=format&fit=crop",
+    "gradient": "from-sky-950/90 via-slate-900/85 to-slate-950/95",
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "banner-2",
+    "title": "Service Kulkas 1 & 2 Pintu Langsung di Lokasi",
+    "subtitle": "Atasi kulkas mati total, tidak beku, atau kompresor berdengung dengan teknisi jujur dan sparepart original.",
+    "serviceName": "Spesialis Pendingin Kulkas & Inverter",
+    "tag": "PANGGILAN HARI INI",
+    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?q=80&w=1600&auto=format&fit=crop",
+    "gradient": "from-blue-950/90 via-slate-900/85 to-slate-950/95",
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "banner-3",
+    "title": "Service Showcase Toko & Freezer Box Cepat",
+    "subtitle": "Solusi darurat untuk usaha toko, cafe & resto Anda di Indramayu, Cirebon, & Majalengka.",
+    "serviceName": "Service Showcase & Freezer Box Usaha",
+    "tag": "PRIORITAS BISNIS",
+    "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?q=80&w=1600&auto=format&fit=crop",
+    "gradient": "from-indigo-950/90 via-slate-900/85 to-slate-950/95",
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  }
+]

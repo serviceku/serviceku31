@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Blue Gradients matching Serviceku Logo -->
+    <linearGradient id="arcGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0047AB" />
+      <stop offset="40%" stop-color="#0275D8" />
+      <stop offset="100%" stop-color="#00A3E0" />
+    </linearGradient>
+    <linearGradient id="waveTopGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0099FF" />
+      <stop offset="100%" stop-color="#026AA7" />
+    </linearGradient>
+    <linearGradient id="waveBottomGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A2540" />
+      <stop offset="50%" stop-color="#00438F" />
+      <stop offset="100%" stop-color="#0D3B66" />
+    </linearGradient>
+    <linearGradient id="brandTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00479E" />
+      <stop offset="100%" stop-color="#0263C7" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Circular Arc on Left and Top -->
+  <path
+    d="M 125 270 A 138 138 0 1 1 310 52"
+    fill="none"
+    stroke="url(#arcGrad)"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+
+  <!-- Snowflake on Top-Left (Inside Arc) -->
+  <g transform="translate(195, 160)" stroke="#0265B8" stroke-width="7" stroke-linecap="round">
+    <line x1="0" y1="-52" x2="0" y2="52" />
+    <line x1="-45" y1="-26" x2="45" y2="26" />
+    <line x1="-45" y1="26" x2="45" y2="-26" />
+
+    <line x1="0" y1="-32" x2="-14" y2="-44" stroke-width="5.5" />
+    <line x1="0" y1="-32" x2="14" y2="-44" stroke-width="5.5" />
+    <line x1="0" y1="-18" x2="-10" y2="-26" stroke-width="5" />
+    <line x1="0" y1="-18" x2="10" y2="-26" stroke-width="5" />
+
+    <line x1="0" y1="32" x2="-14" y2="44" stroke-width="5.5" />
+    <line x1="0" y1="32" x2="14" y2="44" stroke-width="5.5" />
+    <line x1="0" y1="18" x2="-10" y2="26" stroke-width="5" />
+    <line x1="0" y1="18" x2="10" y2="26" stroke-width="5" />
+
+    <line x1="-28" y1="-16" x2="-40" y2="-10" stroke-width="5" />
+    <line x1="-28" y1="-16" x2="-30" y2="-30" stroke-width="5" />
+
+    <line x1="28" y1="-16" x2="40" y2="-10" stroke-width="5" />
+    <line x1="28" y1="-16" x2="30" y2="-30" stroke-width="5" />
+
+    <line x1="-28" y1="16" x2="-40" y2="10" stroke-width="5" />
+    <line x1="-28" y1="16" x2="-30" y2="30" stroke-width="5" />
+
+    <line x1="28" y1="16" x2="40" y2="10" stroke-width="5" />
+    <line x1="28" y1="16" x2="30" y2="30" stroke-width="5" />
+
+    <circle cx="0" cy="0" r="4.5" fill="#00479E" stroke="none" />
+  </g>
+
+  <!-- Gear Cog on Right (behind wrench) -->
+  <g transform="translate(325, 230)" fill="#14213d">
+    <circle cx="0" cy="0" r="54" />
+    <g>
+      <rect x="-10" y="-72" width="20" height="24" rx="2" />
+      <rect x="-10" y="48" width="20" height="24" rx="2" />
+      <rect x="-72" y="-10" width="24" height="20" rx="2" />
+      <rect x="48" y="-10" width="24" height="20" rx="2" />
+      <g transform="rotate(45)">
+        <rect x="-10" y="-72" width="20" height="24" rx="2" />
+        <rect x="-10" y="48" width="20" height="24" rx="2" />
+        <rect x="-72" y="-10" width="24" height="20" rx="2" />
+        <rect x="48" y="-10" width="24" height="20" rx="2" />
+      </g>
+    </g>
+    <circle cx="0" cy="0" r="28" fill="#FAF8F5" />
+  </g>
+
+  <!-- Wrench: Diagonally pointing Up-Right (~48 degrees) -->
+  <g transform="translate(265, 205) rotate(48)" filter="url(#subtleGlow)">
+    <rect x="-15" y="-95" width="30" height="155" rx="6" fill="#14213d" />
+    <rect x="-4.5" y="-75" width="9" height="120" rx="3.5" fill="#f0f9ff" />
+
+    <path
+      d="M -34 -85
+         C -34 -130, 34 -130, 34 -85
+         C 24 -85, 17 -72, 17 -58
+         L -17 -58
+         C -17 -72, -24 -85, -34 -85 Z"
+      fill="#14213d"
+    />
+
+    <circle cx="0" cy="78" r="28" fill="#14213d" />
+    <circle cx="0" cy="78" r="14" fill="#FAF8F5" />
+  </g>
+
+  <!-- Dynamic Curved Blue Waves at Base of Emblem -->
+  <path
+    d="M 65 315
+       C 140 280, 210 325, 280 305
+       C 335 290, 370 305, 415 320
+       C 365 332, 320 315, 270 322
+       C 190 335, 140 325, 65 315 Z"
+    fill="url(#waveTopGrad)"
+  />
+
+  <path
+    d="M 45 328
+       C 130 295, 205 345, 285 320
+       C 340 302, 385 320, 435 334
+       C 380 355, 325 336, 275 348
+       C 175 372, 125 352, 45 328 Z"
+    fill="url(#waveBottomGrad)"
+  />
+
+  <!-- Typography: Serviceku -->
+  <text
+    x="250"
+    y="405"
+    text-anchor="middle"
+    font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+    font-weight="900"
+    font-style="italic"
+    font-size="64"
+    fill="url(#brandTextGrad)"
+    letter-spacing="-1"
+  >
+    Serviceku
+  </text>
+
+  <!-- Typography: ELEKTRONIK TERBAIK with side rules -->
+  <line x1="45" y1="424" x2="115" y2="424" stroke="#0047AB" stroke-width="3" stroke-linecap="round" />
+  <text
+    x="250"
+    y="431"
+    text-anchor="middle"
+    font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+    font-weight="900"
+    font-size="22"
+    fill="#0F172A"
+    letter-spacing="5"
+  >
+    ELEKTRONIK TERBAIK
+  </text>
+  <line x1="385" y1="424" x2="455" y2="424" stroke="#0047AB" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Tagline: -SPESIALIS PENDINGIN DAN MESIN ELEKTRONIK- -->
+  <text
+    x="250"
+    y="458"
+    text-anchor="middle"
+    font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+    font-weight="800"
+    font-size="14.5"
+    fill="#0F172A"
+    letter-spacing="1.5"
+  >
+    -SPESIALIS PENDINGIN DAN MESIN ELEKTRONIK-
+  </text>
+</svg>
